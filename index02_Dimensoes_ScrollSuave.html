@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style02.css">
+  <title>Página</title>
+</head>
+<body>
+      <div class="texto">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error qui quod ipsa deserunt mollitia, eos quam cumque dicta natus veritatis ea iure maxime quia assumenda libero rem alias iusto veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium numquam doloremque, tenetur reprehenderit ex commodi adipisci placeat sed, aspernatur esse maiores. Itaque obcaecati possimus vitae, impedit cumque cupiditate quam qui? Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eos cum blanditiis laborum consequatur exercitationem non adipisci, eaque eveniet repellat velit commodi deserunt ad aspernatur harum mollitia voluptatem officia dolorem.
+      </div>
+ 
+
+        <div onclick="subirTela()" class="scrollbutton">
+        </div>
+  <script src="script02.js"></script>
+</body>
+</html>
+
+
+<!-- document.querySelector('.texto').offsetWidth     //244 por causa do padding 'respiro', largura + scrollbar + padding + borda -->
+<!-- document.querySelector('.texto').offsetHeight     //244 por causa do padding 'respiro', largura + scrollbar + padding + borda -->
+<!-- document.querySelector('.texto').clientWidth     //233 pega só 2 inf. A largura excluindo o scrollbar, pega o padding. -->
+<!-- document.querySelector('.texto').scrollHeight    // conta o tamanho real do conteúdo -->
