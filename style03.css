@@ -1,0 +1,47 @@
+body {
+    background-color: #EEEEEE;
+}
+
+input[type=text] {
+    padding:10px;
+    font-size: 14px;
+}
+
+.azul {
+    background-color: blue;
+    color:  #FFF;
+}
+
+.vermelho {
+    background-color: #FF0000;
+    color: #FFF;
+}
+
+
+.oculto {
+    display: none;
+}
+
+
+.verde {
+    background-color: greenyellow;
+    color: #000;
+}
+
+#codigo {
+    font-size: 28px;
+    color: royalblue;
+    display: none;
+}
+
+.btn-code {
+        padding: 10px 20px;
+        margin: 0px 20px;
+        border: 0px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        outline: 0px;
+        background-color: black;
+        color: white;
+}

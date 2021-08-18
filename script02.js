@@ -27,21 +27,16 @@ function subirTela() {
 
 
 
-function aparecer(){
-  // caso o scroll esteja em posição maior que 20, ele entra no if
-  if(window.scrollY > 20){
-      //quando entrar no if, troca o atributo do display para block, assim ficará visível.
-      document.querySelector('.scrollbutton').setAttribute('style', 'display:block');
-  } else {
-      // quando não atender a condição do if, então ele esconde novamente o scrollbutton
-      document.querySelector('.scrollbutton').setAttribute('style', 'display:none'); 
-  }
+
+// ocultar botão no scroll top.
+function ocultarBotao () {
+  if(window.scrollY === 0) {
+        //ocultar botão
+        document.querySelector('.scrollbutton').style.display = 'none';
+    } else {
+        //mostrar botão
+        document.querySelector('.scrollbutton').style.display = 'block';
+    }
 }
 
-/*
-O setInterval aplica um tempo para uma função
-assim o if ficará rodando a cada 1s e validando
-a condição.
-*/
-
-setInterval(aparecer, 1);
+window.addEventListener('scroll', ocultarBotao);
