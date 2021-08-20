@@ -14,21 +14,21 @@
 //Uso como eu quiser esse menuArea, menu-opened esta
 // se tiver a class menu-opened iremos tirar, caso contrário adicionar.
 
-//2° Forma:
-// function menuToggle() {
-//   let menuArea = document.getElementById('menu-area');
+2° Forma:
+function menuToggle() {
+  let menuArea = document.getElementById('menu-area');
 
-//   if(menuArea.style.width == '200px') {
-//     menuArea.style.width = '0px';
-//   } else {
-//     menuArea.style.width = '200px';
-//   }
-// }
+  if(menuArea.style.width == '200px') {
+    menuArea.style.width = '0px';
+  } else {
+    menuArea.style.width = '200px';
+  }
+}
 
 
 //3° Forma:
 
-function menuToggle() {                         //enu Toggle, existe essa função no javascript que ela adiciona e remove a classe, clicando uma vez ela adiciona e clicando novamente ela remove!
-  let menuArea = document.querySelector(".menu-area");
-  menuArea.classList.toggle('menu-opened');
-}
+// function menuToggle() {                         //enu Toggle, existe essa função no javascript que ela adiciona e remove a classe, clicando uma vez ela adiciona e clicando novamente ela remove!
+//   let menuArea = document.querySelector(".menu-area");
+//   menuArea.classList.toggle('menu-opened');
+// }
