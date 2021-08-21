@@ -13,7 +13,8 @@ console.log(res);
 //let res = lista.join('-')      
 //let res = lista.toString();
 
-
+let espaço ='____________'
+console.log(espaço);
 //#2 Remover item da array
 
 let receita = ['Ovo','Farinha','Corante','Massa'];
@@ -31,6 +32,7 @@ res2.reverse();  //Inverte a ordem da array
 
 console.log(res2);
 
+console.log(espaço);
 //#3 
 
 let numberLista = [1, 2, 45, 8 , 16, 25]
@@ -54,7 +56,7 @@ console.log(resNumber);
 
 // no momento que você usar o lista.map(), automáticamente o map ele vai "pegar cada item" que está dentro do Array lista e jogar dentro do parâmetro da função que está dentro dele, no exemplo do prof foi item. E cada vez que ele fazer o mapeamento ele vai pegar o retorno da função e vai armazenar a um item no array criado pelo map();
 
-
+console.log(espaço);
 //#4 Filtro
 
 let listagem = [3,5,45,15,25,6]
@@ -86,6 +88,7 @@ list2 = list.find(function(item) {          //findIndex   - acha a posição
 let result = list2;
 console.log(result);
 
+console.log(espaço);
 //_____ex6
 let alunos = [                       ///Criar uma array , dentro dela com objetos
   {id:1, nome:'Carlos', sobrenome:'Mega'},
