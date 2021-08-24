@@ -18,7 +18,7 @@ function parar() {
 
 function rodar() {
     setTimeout(function() {
-        document.querySelector
+        document.querySelector  // 3:28 !!!!!!!!!!!!!!!!!!!!
     })
 }
 
@@ -37,4 +37,3 @@ function showTime(){
 
 // let timer = setInterval(showTime,1000); // IRA PARA DENTRO DA FC COMECAR
 
-// 6:30 parei
