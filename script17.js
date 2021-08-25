@@ -16,11 +16,7 @@ function parar() {
                                 // Posso usar agora o timer tanto no comecar quanto no parar.
 }
 
-function rodar() {
-    setTimeout(function() {
-        document.querySelector  // 3:28 !!!!!!!!!!!!!!!!!!!!
-    })
-}
+
 
 //fç criada, exibir hora atual, com hora minuto e segundo na tela.
 function showTime(){
